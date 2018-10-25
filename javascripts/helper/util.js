@@ -1,7 +1,6 @@
 const printToDom = (stringToPrint) => {
-    const printToDom = document.getElementById('charators')
-    
-};
+  const printHere = document.getElementById('characters');
+  printHere.innerHTML = stringToPrint;
+}
 
-
-export {printToDom};
+export { printToDom };

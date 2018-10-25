@@ -1,5 +1,9 @@
+import {getCharacters} from './data/charactersData.js';
+import {sortEvents} from './components/characters.js';
+
 const initializeApp = () => {
-    console.log('main');
-  };
-  
-  initializeApp();
+  sortEvents();
+  getCharacters();
+};
+
+initializeApp();
